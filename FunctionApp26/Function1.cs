@@ -22,7 +22,7 @@ namespace FunctionApp26
             var response = req.CreateResponse(HttpStatusCode.OK);
             response.Headers.Add("Content-Type", "text/plain; charset=utf-8");
 
-            response.WriteString($"Welcome to Azure Functions Magic !!!! - {DateTime.Now}");
+            response.WriteString($"Welcome to Azure Functions Magic .!!! - {DateTime.Now}");
 
             return response;
         }
