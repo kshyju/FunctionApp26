@@ -6,13 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <FunctionsEnableWorkerIndexing>true</FunctionsEnableWorkerIndexing>
-    <!--<PublishReadyToRun>true</PublishReadyToRun>-->
+    <FunctionsEnablePlaceholder>true</FunctionsEnablePlaceholder>
+    <PublishReadyToRun>true</PublishReadyToRun>
   </PropertyGroup>
   <ItemGroup>
-	<FrameworkReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.12.0-preview2-local" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker" Version="1.12.0-preview3-local" />
     <PackageReference Include="Microsoft.Azure.Functions.Worker.Extensions.Http" Version="3.0.13" />
-    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.8.0-preview4-local" />
+    <PackageReference Include="Microsoft.Azure.Functions.Worker.Sdk" Version="1.8.0-preview7-local" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
